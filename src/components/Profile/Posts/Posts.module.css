@@ -1,0 +1,12 @@
+.posts{
+
+}
+.item{
+    color: darkgreen;
+}
+.active{
+    background-color: blue;
+}
+.item img{
+    width: 35px;
+}
