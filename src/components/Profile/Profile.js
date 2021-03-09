@@ -1,17 +1,17 @@
 import React from 'react';
-import s from './Profile.module.css';
-import Posts from "./Posts/Posts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
+import PostsContainer from "./Posts/PostsContainer";
 
-const Profile = () => {
-    return  <div className={s.content}>
+
+const Profile = (props) => {
+    return  (
         <div>
-            <img src="https://static.posters.cz/image/750/%D0%9F%D0%BB%D0%B0%D0%BA%D0%B0%D1%82/sunset-elephants-i57923.jpg" alt=""/>
+            <ProfileInfo profile={props.profile}/>
+
+            <PostsContainer />
         </div>
-        <div>
-            avatar+discription
-        </div>
-        <Posts />
-    </div>
+
+    )
 };
 
 export default Profile;

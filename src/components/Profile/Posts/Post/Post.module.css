@@ -1,9 +1,16 @@
 .item{
-    color: darkgreen;
+    color: #FF776B;
 }
 .active{
     background-color: blue;
 }
 .item img{
     width: 35px;
+}
+.item span{
+    color: #2E3443;
+}
+hr{
+    width: 100%;
+    border-bottom: 1px solid #FEF4D4;
 }

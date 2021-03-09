@@ -2,11 +2,12 @@
 
 }
 .item{
-    color: darkgreen;
+    color: white;
 }
-.active{
-    background-color: blue;
-}
+
 .item img{
     width: 35px;
+}
+.posts{
+    margin-top: 20px;
 }

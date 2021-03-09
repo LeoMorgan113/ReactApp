@@ -8,6 +8,26 @@
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
+  color: #2E3443;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: #AED9E0;
+  padding: 20px;
+}
+.btn{
+  margin: 10px 0;
+  background-color: transparent;
+  border: 1px solid #FF776B;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  color: #2E3443;
+}
+.btn:hover{
+  background-color: #FF776B;
+  transition: background-color .5s ease;
 }
 
 
